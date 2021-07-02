@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+use Pollen\Console\Console;
+
+$ds = DIRECTORY_SEPARATOR;
+
+$paths = [
+    __DIR__."{$ds}..{$ds}autoload.php",
+    __DIR__."{$ds}..{$ds}..{$ds}..{$ds}autoload.php"
+];
+
+foreach ($paths as $path) {
+    if (file_exists($path)) {
+        require_once $path;
+        break;
+    }
+}
+
+new Console();
