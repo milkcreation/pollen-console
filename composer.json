@@ -1,25 +1,19 @@
 {
   "name": "pollen-solutions/console",
   "description": "Pollen Console Component - Create command-line commands from PHP CLI.",
-  "homepage": "https://www.presstify.com/pollen-solutions/asset/",
+  "homepage": "https://github.com/milkcreation/pollen-console.git",
   "keywords": [
     "pollen",
     "component",
     "console",
     "cli"
   ],
-  "time": "2021-07-05",
+  "time": "2021-09-14",
   "license": "MIT",
   "authors": [
     {
       "name": "Jordy Manner",
       "email": "jordy@presstify.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.presstify.com/pollen-solutions/"
     }
   ],
   "require": {
